@@ -21,7 +21,7 @@ const workerConfig: WorkerConfig = {
   monitors: [
 {
       id: 'college_site',
-      name: 'College Website',
+      name: ' My College Website',
       method: 'GET',
       target: 'https://example.com',
       expectedCodes: [200],
