@@ -26,7 +26,7 @@ const workerConfig: WorkerConfig = {
       target: 'https://example.com',
       expectedCodes: [200],
       timeout: 10000,
-      group:'public',
+      
     },
     {
       id: 'google_site',
@@ -35,7 +35,7 @@ const workerConfig: WorkerConfig = {
       target: 'https://www.google.com',
       expectedCodes: [200],
       timeout: 10000,
-      group:'public',
+      
     },
     {
     id: 'youtube_site',
@@ -44,7 +44,7 @@ const workerConfig: WorkerConfig = {
     target: 'https://www.youtube.com',
     expectedCodes: [200],
     timeout: 10000,
-    group:'public',
+    
   },
   ],
   // [Optional] Notification settings
