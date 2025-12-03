@@ -28,7 +28,7 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
     },
     {
-      id: 'google',
+      id: 'google_site',
       name: 'Google',
       method: 'GET',
       target: 'https://www.google.com',
@@ -36,7 +36,7 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
     },
     {
-    id: 'youtube',
+    id: 'youtube_site',
     name: 'YouTube',
     method: 'GET',
     target: 'https://www.youtube.com',
