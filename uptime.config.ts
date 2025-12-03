@@ -28,13 +28,21 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
     },
     {
-      id: 'google_site',
+      id: 'google',
       name: 'Google',
       method: 'GET',
       target: 'https://www.google.com',
       expectedCodes: [200],
       timeout: 10000,
     },
+    {
+    id: 'youtube',
+    name: 'YouTube',
+    method: 'GET',
+    target: 'https://www.youtube.com',
+    expectedCodes: [200],
+    timeout: 10000,
+  },
   ],
   // [Optional] Notification settings
   notification: {
@@ -80,8 +88,8 @@ const workerConfig: WorkerConfig = {
 
 // const maintenances: MaintenanceConfig[] = []
 
-const maintenances:
-MaintenanceConfig[] = [];
+const maintenances: MaintenanceConfig[] =
+  [];
 
 // Don't edit this line
 export { maintenances, pageConfig, workerConfig }
