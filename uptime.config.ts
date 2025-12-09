@@ -53,6 +53,7 @@ const workerConfig: WorkerConfig = {
     target: 'https://www.instagram.com',
     expectedCodes: [200],
     timeout: 10000,
+  },
   ],
   // [Optional] Notification settings
   notification: {
