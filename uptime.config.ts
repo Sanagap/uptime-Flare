@@ -58,9 +58,10 @@ const workerConfig: WorkerConfig = {
     id: 'IRCTC_site',
     name: 'IRCTC',
     method: 'GET',
-    target: 'https://www.indianrailways.gov.in.com',
+    target: 'https://www.irctc.co.in/nget/train-search',
     expectedCodes: [200],
     timeout: 10000, 
+  },
   ],
   // [Optional] Notification settings
   notification: {
