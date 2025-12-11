@@ -81,6 +81,7 @@ const workerConfig: WorkerConfig = {
     target: 'https://www.irctc.co.in/nget/train-search',
     expectedCodes: [200],
     timeout: 10000, 
+    "User-Agent": "Mozilla/5.0"
   },
   ],
   // [Optional] Notification settings
