@@ -53,7 +53,7 @@ const workerConfig: WorkerConfig = {
     target: 'https://www.facebook.com',
     expectedCodes: [200],
     timeout: 10000,
-    };
+    },
   {
     id: 'instagram_site',
     name: 'instagram',
