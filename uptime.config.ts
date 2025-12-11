@@ -54,6 +54,13 @@ const workerConfig: WorkerConfig = {
     expectedCodes: [200],
     timeout: 10000,
   },
+  {
+    id: 'IRCTC_site',
+    name: 'IRCTC',
+    method: 'GET',
+    target: 'https://www.indianrailways.gov.in.com',
+    expectedCodes: [200],
+    timeout: 10000, 
   ],
   // [Optional] Notification settings
   notification: {
