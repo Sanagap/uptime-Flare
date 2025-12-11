@@ -46,6 +46,18 @@ const workerConfig: WorkerConfig = {
     timeout: 10000,
     
   },
+  {
+  id: "SBI_site",
+  name: "SBI Bank",
+  method: "GET",
+  target: "https://www.onlinesbi.sbi",
+  expectedCodes: [200],
+  timeout: 15000,
+  headers: {
+  "User-Agent": "Mozilla/5.0"
+  }
+  },
+
     {
     id: 'facebook_site',
     name: 'facebook',
