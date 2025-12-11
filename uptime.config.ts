@@ -38,6 +38,15 @@ const workerConfig: WorkerConfig = {
       
     },
     {
+    id: "IRCTC_site",
+    name: "IRCTC",
+    method: "GET",
+    target: "https://www.irctc.co.in/nget/train-search",
+    expectedCodes: [200],
+    timeout: 15000,
+    headers: { "User-Agent": "Mozilla/5.0" }
+  },
+    {
     id: 'youtube_site',
     name: 'YouTube',
     method: 'GET',
@@ -81,7 +90,7 @@ const workerConfig: WorkerConfig = {
     target: 'https://www.irctc.co.in/nget/train-search',
     expectedCodes: [200],
     timeout: 10000, 
-    "User-Agent": "Mozilla/5.0"
+  
   },
   ],
   // [Optional] Notification settings
