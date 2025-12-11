@@ -46,6 +46,14 @@ const workerConfig: WorkerConfig = {
     timeout: 10000,
     
   },
+    {
+    id: 'facebook_site',
+    name: 'facebook',
+    method: 'GET',
+    target: 'https://www.facebook.com',
+    expectedCodes: [200],
+    timeout: 10000,
+    };
   {
     id: 'instagram_site',
     name: 'instagram',
