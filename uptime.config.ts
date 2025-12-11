@@ -74,7 +74,16 @@ const workerConfig: WorkerConfig = {
     target: 'https://www.facebook.com',
     expectedCodes: [200],
     timeout: 10000,
-    },
+    }, 
+  {
+  id: "dessertino_vizag",
+  name: "Dessertino Vizag",
+  method: "GET",
+  target: "https://dessertino.co.in",
+  expectedCodes: [200],
+  timeout: 10000,
+  headers: { "User-Agent": "Mozilla/5.0" }
+  },
   {
     id: 'instagram_site',
     name: 'instagram',
